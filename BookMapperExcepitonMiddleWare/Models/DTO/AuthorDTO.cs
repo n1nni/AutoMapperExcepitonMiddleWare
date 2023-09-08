@@ -3,7 +3,7 @@
     public class AuthorDTO
     {
         public string AuthorFirstName { get; set; }
-        public string AuthorLasttName { get; set; }
+        public string AuthorLastName { get; set; }
         public int BookCount { get; set; }
     }
 }

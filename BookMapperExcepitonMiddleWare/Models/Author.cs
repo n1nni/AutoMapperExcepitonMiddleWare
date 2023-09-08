@@ -1,4 +1,5 @@
 ﻿using BookMapperExcepitonMiddleWare.Models.JunctionTables;
+using System.Text.Json.Serialization;
 
 namespace BookMapperExcepitonMiddleWare.Models
 {
@@ -8,6 +9,7 @@ namespace BookMapperExcepitonMiddleWare.Models
         public string AuthorName { get; set; }
         public int BookCount { get; set; }
 
+        [JsonIgnore]
         public ICollection<AuthorBook> AuthorBooks { get; set; } // junction table
 
     }
