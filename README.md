@@ -87,7 +87,7 @@ To use the Student Management app, follow these steps:
 3. Build and run the application.
    ```shell
    dotnet build
-   dotnet run=
+   dotnet run
 
 
 ## Contributing
